@@ -1,5 +1,5 @@
 # Obsidian Publish Post
 
-Assumes a lot.
+⚠️ WIP
 
 Pushes the post you're working on to GitHub.
