@@ -80,10 +80,10 @@ class PublishPostSettingsTab extends PluginSettingTab {
 				}));
 
 		new Setting(containerEl)
-			.setName('GPG Key')
-			.setDesc('If you have verified commits, set your GPG key')
+			.setName('GPG program path')
+			.setDesc('Path to your GPG program `which gpg`')
 			.addText(text => text
-				.setPlaceholder('Enter GPG key')
+				.setPlaceholder('Enter GPG path')
 				.setValue(this.plugin.settings.gpgPath)
 				.onChange(async (value) => {
 					this.plugin.settings.gpgPath = value;
